@@ -35,7 +35,7 @@ const Career = () => {
                 <h4>Freelance WordPress Developer</h4>
                 <h5>ApexReach</h5>
               </div>
-              <h3>2025</h3>
+              <h3>2026</h3>
             </div>
             <p>
               Independently designed and developed a complete WordPress website

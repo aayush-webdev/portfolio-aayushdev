@@ -90,10 +90,9 @@ const WhatIDo = () => {
               <h3>FRONTEND</h3>
               <h4>Building Interactive & Responsive Interfaces </h4>
               <p>
-                Crafting modern, responsive web applications using React.js and
+                Building modern, responsive interfaces with React.js and
                 JavaScript. Focused on clean UI, smooth animations, and
-                performance-driven user experiences. I build interfaces that are
-                not just functional, but feel intuitive and engaging.
+                intuitive user experiences.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -128,14 +127,12 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>TOOLS, AUTOMATION & INTEGRATION</h3>
-              <h4>Building Practical Solutions & Streamlining Workflows</h4>
+              <h3>TOOLS </h3>
+              <h4>Building  Streamlining Workflows</h4>
               <p>
-                Working with modern tools and APIs to build complete web
-                solutions and improve development workflows. Experienced in
-                integrating external services, managing version control, and
-                handling real-world project setups. Exploring automation using
-                n8n to connect systems and reduce manual tasks.
+                Using modern tools and APIs to build web solutions and
+                streamline workflows. Skilled in version control, API
+                integration, and automation with n8n.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">

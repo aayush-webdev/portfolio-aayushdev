@@ -189,6 +189,26 @@ const TechStack = () => {
     [materials]
   );
 
+  // Check if WebGL is available before rendering the 3D canvas
+  const [webglAvailable, setWebglAvailable] = useState(true);
+  useEffect(() => {
+    try {
+      const testCanvas = document.createElement("canvas");
+      const gl = testCanvas.getContext("webgl2") || testCanvas.getContext("webgl");
+      if (!gl) setWebglAvailable(false);
+    } catch {
+      setWebglAvailable(false);
+    }
+  }, []);
+
+  if (!webglAvailable) {
+    return (
+      <div className="techstack">
+        <h2> My Techstack</h2>
+      </div>
+    );
+  }
+
   return (
     <div className="techstack">
       <h2> My Techstack</h2>

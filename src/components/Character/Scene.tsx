@@ -27,10 +27,16 @@ const Scene = () => {
       const aspect = container.width / container.height;
       const scene = sceneRef.current;
 
-      const renderer = new THREE.WebGLRenderer({
-        alpha: true,
-        antialias: true,
-      });
+      let renderer: THREE.WebGLRenderer;
+      try {
+        renderer = new THREE.WebGLRenderer({
+          alpha: true,
+          antialias: true,
+        });
+      } catch (e) {
+        console.warn("WebGL not available for character model:", e);
+        return;
+      }
       renderer.setSize(container.width, container.height);
       // Cap pixel ratio to 2x to prevent 4-9x GPU waste on HiDPI screens
       renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
