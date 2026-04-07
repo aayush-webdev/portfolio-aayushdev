@@ -6,11 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Full Stack Developer with 4+ years of experience building scalable web
-          applications using React.js, Angular, Next.js, Node.js, and NestJS. Skilled
-          in microservices architecture, CMS development, and low-code platforms.
-          Passionate about creating high-performance, production-ready solutions
-          from concept to deployment.
+          Frontend Developer with practical experience building scalable and
+          responsive web applications using React.js, JavaScript, and modern UI
+          technologies. Delivered multiple real-world projects involving API
+          integrations, animation-heavy interfaces, and basic workflow
+          automation using n8n. Passionate about performance, clean
+          architecture, and building production-ready user experiences.
         </p>
       </div>
     </div>

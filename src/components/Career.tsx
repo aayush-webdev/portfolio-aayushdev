@@ -15,43 +15,51 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Frontend Developer</h4>
+                <h5>Syntax World</h5>
               </div>
-              <h3>2020</h3>
+              <h3>2026</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Worked on real client projects using HTML, CSS, JavaScript, and
+              React.js. Built and maintained responsive websites, focusing on
+              clean UI and performance. Collaborated in a team environment and
+              contributed to reusable component-based development. Gained
+              hands-on experience with API integration and modern frontend
+              workflows.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Freelance WordPress Developer</h4>
+                <h5>ApexReach</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Independently designed and developed a complete WordPress website
+              for a client. Handled the full project lifecycle from requirements
+              to deployment. Customized layouts using Elementor and ensured
+              responsive design across devices. Focused on clean UI, usability,
+              and basic SEO structure.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Frontend Developer (Self-Learning & Projects)</h4>
+                <h5>Self-Employed</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>Present </h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Building real-world projects using React.js, focusing on UI/UX,
+              animations, and performance. Exploring workflow automation using
+              n8n and integrating APIs into applications. Continuously improving
+              problem-solving skills by working on practical implementations and
+              debugging real issues. Actively preparing for frontend developer
+              roles and contributing to personal projects.
             </p>
           </div>
         </div>
