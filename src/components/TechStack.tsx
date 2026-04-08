@@ -15,11 +15,13 @@ const imageUrls = [
   "/images/react2.webp",
   "/images/next2.webp",
   "/images/node2.webp",
-  "/images/express.webp",
   "/images/mongo.webp",
-  "/images/mysql.webp",
   "/images/typescript.webp",
   "/images/javascript.webp",
+  "/images/html_logo_white_1775637504167.png",
+  "/images/css_logo_white_1775637517517.png",
+  "/images/tailwind_logo_white_1775637531484.png",
+  "/images/wordpress_logo_white_1775637547762.png",
 ];
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
